@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Fluid Page Layouts with Flexbox</title>
+
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-silver-green">
+		<div class="reveal">
+			<div class="slides">
+				<section class="stack" data-id="c7401fb0d29b0930b3e7ffb61ffc04a9"><section data-id="6b27d67e9004856d2ea5bfac5cb67efe" data-background-color="#f0ffe7"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 123px; height: auto;" data-block-id="b3479d8741210b9ecfd0bd595f7eb6be"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; background-color: rgba(0, 0, 0, 0); color: rgb(106, 168, 79);">
+<h1><span style="color:#008000">Fluid Page Layouts with Flexbox</span></h1>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 436px; left: 356px; top: 434px;" data-block-id="c0d00f974ab8bf7608fa6b8136b9918a"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 80%; color: rgb(0, 0, 0);" data-fragment-index="0">
+<h3 style="text-align:left">
+<span style="font-size:0.7em">with</span> <span style="font-size:1.0em">Laura Cooper</span>
+</h3>
+
+<p style="text-align:left"><span style="font-size:0.7em">Senior Web Developer, <a href="https://www.verbinteractive.com/" target="_blank">VERB Interactive</a><br>
+Strategic Volunteer &amp; Instructor, <a href="https://www.canadalearningcode.ca/chapters/victoria/" target="_blank">Canada Learning Code</a></span><br>
+<span style="font-size:16.8px; text-align:left">Board of Directors, <a href="http://www.yyjtechladies.com/" target="_blank">YYJ Tech Ladies</a></span></p>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="d860d88fd5d2780c82eb1b1c364ec594" style="min-width: 4px; min-height: 4px; width: 168px; height: 168px; left: 168px; top: 420px;"><div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="0"><img style="" data-natural-width="600" data-natural-height="600" data-lazy-loaded="" data-src="fluid-page-layouts-with-flexbox/d050f384b87bb983aa619d88aa7be51d.png"></div></div></section><section data-id="05c64c2c63102b974151480536cc700f" data-background-color="#f0ffe7"><div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;" data-block-id="0cbc3c739f2eb48e2293ba76936d64b4"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 12;">
+<h2 style="text-align:left">Software &amp; Workshop Files</h2>
+</div></div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 54px; top: 210px; height: auto;" data-block-id="2d9a7d3624195ba69a0e92e726273d6f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 90%; line-height: 1.56;" dir="ui" data-has-line-height="">
+<ul>
+	<li style="text-align:left"><span style="font-size:1.0em">Download Sublime Editor: <a href="https://www.sublimetext.com/" target="_blank">https://www.sublimetext.com/</a> <br>
+	<span style="font-size:1.0em">(or use your text editor of choice)</span></span></li>
+	<li style="text-align:left"><span style="font-size:1.0em">Chrome Browser: <a href="https://www.google.ca/chrome/browser/desktop/" target="_blank">https://www.google.ca/chrome</a></span></li>
+	<li>
+<span style="font-size:1.0em">Download workshop files (zip file): </span><a href="https://goo.gl/Xv7G5n" target="_blank"><span style="text-align:start">https://goo.gl/Xv7G5n</span></a>
+</li>
+	<li><span style="font-size:1.0em">Unzip the zip file (<em>extract all</em> if you’re on a PC)</span></li>
+	<li><span style="font-size:1.0em">Open<strong> slides.html </strong>in Chrome to view the slides</span></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="line" data-block-id="749488b7efaaa0de032de9c880aa0ab4" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 80px; top: 140px;"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 13; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+</section><section data-background-color="#f0ffe7" data-id="11d2698b98391655f8327bb171bc8030"><div class="sl-block" data-block-type="text" style="width: 821px; left: 80px; top: 70px; height: auto;" data-block-id="14138fd48b81709657935b4add3b653e"><div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">CSS: <span style="font-size:1.0em">Cascading Style Sheets</span>
+</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 140px;" data-block-id="a0371dd55c0ccc3b1a36c26acdd5d234"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 0.6s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="image" style="width: 800px; height: 355px; left: 80px; top: 210px; min-width: 4px; min-height: 4px;" data-block-id="86aede53e43003009c77d5c511bf1ab2"><div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="0"><img style="" data-natural-width="800" data-natural-height="355" data-lazy-loaded="" data-src="fluid-page-layouts-with-flexbox/d21f6e60cd85da101d1eeccbc2923329.gif"></div></div></section><section data-background-color="#f0ffe7" data-id="575f145037f30e90df22aeef3f3daf28"><div class="sl-block" data-block-type="text" style="width: 821px; left: 80px; top: 70px; height: auto;" data-block-id="e5e1d4e774028d524474ae28e5da5014">
+    <div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+            <h2 style="text-align:left">CSS Review</h2>
+        </div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 140px;" data-block-id="7a842aebf48a7452d3e1f7210afd0ba8">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="6499879cfd4bbfd3c00b6d7898b2ed91" style="height: auto; min-width: 30px; min-height: 30px; width: 821px; left: 59px; top: 210px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 90%; line-height: 1.56;" data-has-line-height="">
+        <ul style="color:rgb(68, 68, 68); font-size:35.84px">
+            <li class="fragment" data-fragment-index="0">
+                <span style="font-size:0.9em">CSS is a different language from HTML, with its own syntax rules</span>
+            </li>
+            <li class="fragment" data-fragment-index="1">
+                <span style="font-size:0.9em">HTML defines the content and structure of a page, whereas CSS defines how it looks</span>
+            </li>
+        </ul>
+    </div>
+</div></section><section data-background-color="#f0ffe7" data-id="3cc736a0b44a44ccef07bb00ce6afebf"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="55d223643df95776f137bda9377463de">
+    <div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+            <h2 style="text-align: left;">CSS Review</h2>
+        </div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="8dada24e790edcae438701106ddd9587">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="b720b48c724e3a7bcad7c51fbc6142f0" style="min-width: 4px; min-height: 4px; width: 658px; height: 313px; left: 75px; top: 326px;">
+    <div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="0">
+        <img style="" data-natural-width="961" data-natural-height="457" data-lazy-loaded="" data-src="fluid-page-layouts-with-flexbox/c6b7d0dd0e0c5f77aa65b6d34a7edf14.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 821px; left: 80px; top: 210px;" data-block-id="f6bdc6f044253be1e549d1652f979241">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 90%; line-height: 1.56;" data-has-line-height="">
+        <p style="text-align:left">
+            CSS requires these symbols:
+        </p>
+        <p style="text-align:left">
+            curly brackets 
+                <span style="color:#008000">
+                    <strong>
+                        <span style="font-size:1.2em">{ } </span>
+                    </strong>
+                </span>    colon
+                <span style="color:#008000">
+                    <span style="font-size:1.2em">
+                        <strong> : </strong>
+                    </span>
+                </span>    semi-colon
+                <span style="font-size:1.2em">
+                    <span style="color:#008000">
+                        <strong> ;</strong>
+                    </span>
+                </span>
+        </p>
+    </div>
+</div></section><section data-background-color="#f0ffe7" data-id="bdd1d5bc4af997df26024bd38374e9ee"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="edec90bf0952497e3001fe6270139383"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">CSS Syntax</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="973719f814be97de1ac1b53072e2f60a"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 646px; left: 66px; top: 200px;" data-block-id="33581b7c85c9ae218671b717c17fc1f6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 90%; line-height: 1.56;" data-has-line-height="">
+<ul>
+	<li class="fragment" data-fragment-index="0">
+<strong>Selectors</strong><span style="text-align:left"> determine which HTML element(s) the styling rules apply to</span>
+</li>
+	<li style="text-align:left" class="fragment" data-fragment-index="1">
+<strong>Properties</strong> determine what property we want to make a rule about, such as color or font size</li>
+	<li style="text-align:left" class="fragment" data-fragment-index="2">
+<strong>Values</strong> determine what that property will be set to, such as red or 20px</li>
+</ul>
+
+<p> </p>
+</div></div>
+<div class="sl-block" data-block-type="code" data-block-id="dd6f16e60fc4f74b0a425e31d7fe91ee" style="min-width: 30px; min-height: 30px; width: 326px; height: 124px; left: 80px; top: 490px;"><div class="sl-block-content notranslate fragment" style="z-index: 14; font-size: 140%;" data-highlight-theme="obsidian" data-fragment-index="3"><pre><code style="padding: 20px;">selector {
+    property: value;
+}</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 326px; height: 124px; left: 431px; top: 490px;" data-block-id="a4eaf350be029fe5de6fecb40a8f7a07"><div class="sl-block-content notranslate fragment" style="z-index: 15; font-size: 140%;" data-highlight-theme="obsidian" data-fragment-index="4"><pre><code style="padding: 20px;">.my-class {
+    font-size: 20px;
+}</code></pre></div></div></section><section data-id="d8b28c5f43e7d2d1011df5d19d6d3c70" data-background-color="#f0ffe7"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="a81a17a5a4ac2e9039b8e25d813ed28f"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">CSS Flexbox</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="f06f929ca8af21994896d35f592fa2c4"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 801px; left: 80px; top: 210px;" data-block-id="e7db34572fed51706f7d87f4abbcdc0f"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 90%;" dir="ui">
+<p style="text-align:left"><span style="text-align:left">So what is flexbox and why would we use it?</span><br>
+<br>
+<span><span>Flexbox is a collection of CSS properties that allow you to create a <a href="https://flexbox.webflow.com/" target="_blank">vast number of different layouts</a> quickly and easily, such as vertical and horizontal centring, equal height columns, image galleries, split screen sections, equal height columns, and fluid grids. It is also <a href="https://caniuse.com/#feat=flexbox" target="_blank">supported by all modern web browsers</a>.</span></span></p>
+
+<p> </p>
+</div></div></section><section data-background-color="#f0ffe7" data-id="d6755fc0e0f1ffd38595bd8b081f444a"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="ff27711b83c205184927b7bcb3f8b6a6"><div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Display: Flex</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="74b33d3d11f68caa13bfe329a8afb58f"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 801px; left: 80px; top: 210px;" data-block-id="9f753d48870cef9acee9690fa9197f68"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 90%;" dir="ui">
+<p style="text-align:left">Similar to <strong>display: block;</strong> or <strong>display: inline</strong>, <strong>display: flex</strong> gives the browser instructions on how to treat the container with respect to how it behaves with items around it.</p>
+
+<p style="text-align:left">Unlike block or inline however,<strong> display: flex </strong>also tells the browser how to lay out the items inside of itself.</p>
+
+<p style="text-align:left">You can also specify <strong>display: inline-flex</strong> which will allow the container to behave like an inline element and yet still allow the items inside it to be flexible and fluid.</p>
+</div></div></section><section data-background-color="#f0ffe7" data-id="a45bba78b9a1b507918b13f21183980d"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="7a7f56a102099a464dab5bac312a6bb4"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Display: Flex</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="843fce59700db7f53d5c5c21e9d4790d"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 4px; min-height: 4px; width: 800px; height: 345px; left: 80px; top: 210px;" data-block-id="e8d31f8b129413bef36559beb0a4c651"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="480" data-natural-height="207" style="" data-lazy-loaded="" data-src="fluid-page-layouts-with-flexbox/eb75ff965961bed8f8af71e9f6d0c97a.gif"></div></div></section><section data-background-color="#f0ffe7" data-id="bedf87b66504916d432efa2b0fefa11e"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="91fd476fa019f93fb736e29a86e93566"><div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Flex-Direction</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="ca3a7154bb61774fab3e68ba9e2445f0"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 801px; left: 80px; top: 190px;" data-block-id="965ccaab7b32a6402b8c938df4d18b1b"><div class="sl-block-style" style="z-index: 12;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 90%; line-height: 1.56;" dir="ui" data-has-line-height="">
+<p style="text-align:left"><span><span>This determines which direction the flexbox items will flow within the container.</span></span></p>
+
+<ul>
+	<li style="text-align:left" class="fragment" data-fragment-index="0"><span style="font-size:0.9em"><strong>row </strong>(default): items flow horizontally (x-axis) from left to right</span></li>
+	<li style="text-align:left" class="fragment" data-fragment-index="1"><span style="font-size:0.9em"><strong>row-reverse</strong>: items flow vertically (x-axis) from right to left</span></li>
+	<li style="text-align:left" class="fragment" data-fragment-index="2"><span style="font-size:0.9em"><strong>column</strong>: items flow vertically (y-axis) from top to bottom</span></li>
+	<li style="text-align:left" class="fragment" data-fragment-index="3"><span style="font-size:0.9em"><strong>column-reverse</strong>: items flow vertically (y-axis) from bottom to top</span></li>
+</ul>
+</div></div></div>
+<div class="sl-block" data-block-type="line" data-block-id="c88ea92eb542d6694e260e68f2df95cf" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 80px; top: 560px;"><div class="sl-block-content fragment" data-line-x1="0" data-line-y1="200" data-line-x2="160" data-line-y2="200" data-line-color="#6aa84f" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 13;" data-line-width="10px" data-fragment-index="4"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="160" height="1" viewbox="0 200 160 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="200" x2="153" y2="200"></line><line stroke="#6aa84f" stroke-width="10" x1="0" y1="200" x2="153" y2="200"></line><path style="fill: rgba(0,0,0,0);" stroke="#6aa84f" stroke-width="10" transform="translate(153,200) rotate(90)" d="M 22.5 22.5 L 0 0 L -22.5 22.5"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 320px; top: 560px;" data-block-id="6518e87725a341355edf0f625c8ce9b9"><div class="sl-block-content fragment" data-line-x1="320" data-line-y1="200" data-line-x2="160" data-line-y2="200" data-line-color="#6aa84f" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 14;" data-line-width="10px" data-fragment-index="4"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="160" height="1" viewbox="160 200 160 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="320" y1="200" x2="168" y2="200"></line><line stroke="#6aa84f" stroke-width="10" x1="320" y1="200" x2="168" y2="200"></line><path style="fill: rgba(0,0,0,0);" stroke="#6aa84f" stroke-width="10" transform="translate(168,200) rotate(270)" d="M 22.5 22.5 L 0 0 L -22.5 22.5"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 640px; top: 490px;" data-block-id="3900e2df4913d9e8199a32730307314a"><div class="sl-block-content fragment" data-line-x1="161" data-line-y1="303" data-line-x2="160" data-line-y2="200" data-line-color="#6aa84f" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 15;" data-line-width="10px" data-fragment-index="4"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="103" viewbox="160 200 1 103"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="161" y1="303" x2="160" y2="207"></line><line stroke="#6aa84f" stroke-width="10" x1="161" y1="303" x2="160" y2="207"></line><path style="fill: rgba(0,0,0,0);" stroke="#6aa84f" stroke-width="10" transform="translate(160,207) rotate(-0.556)" d="M 22.5 22.5 L 0 0 L -22.5 22.5"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 800px; top: 490px;" data-block-id="63bfa7f9142415858fef364ab8ec3b82"><div class="sl-block-content fragment" data-line-x1="161" data-line-y1="60" data-line-x2="161" data-line-y2="163" data-line-color="#6aa84f" data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 16;" data-line-width="10px" data-fragment-index="4"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="1" height="103" viewbox="161 60 1 103"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="161" y1="60" x2="161" y2="156"></line><line stroke="#6aa84f" stroke-width="10" x1="161" y1="60" x2="161" y2="156"></line><path style="fill: rgba(0,0,0,0);" stroke="#6aa84f" stroke-width="10" transform="translate(161,156) rotate(180)" d="M 22.5 22.5 L 0 0 L -22.5 22.5"></path></svg></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="c332bef03c01fc84018a699332b7d6d6" style="height: auto; min-width: 30px; min-height: 30px; width: 106px; left: 107px; top: 612px;"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; font-size: 60%;" data-fragment-index="4">
+<p><strong>ROW</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 133px; left: 334px; top: 612px;" data-block-id="3378c1f815ce0edb6c5361895451ad64"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18; font-size: 60%;" data-fragment-index="4">
+<p><strong>ROW-REVERSE</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 133px; left: 575px; top: 612px;" data-block-id="2e172e548bf87dc03ce718314a7eadad"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19; font-size: 60%;" data-fragment-index="4">
+<p><strong>COLUMN</strong></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 169px; left: 720px; top: 612px;" data-block-id="ba2b13979a21077cadb8c7b1d84596e2"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 21; font-size: 60%;" data-fragment-index="4">
+<p><strong>COLUMN-REVERSE</strong></p>
+</div></div></section><section data-background-color="#f0ffe7" data-id="2b313bf40fde8ec8e9680e71eafc7098"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="518f738e61424103ec2773ee29642106"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Flex-Wrap</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="22f3f307d44ecd51f13e74a3bf6e56da"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 834px; left: 80px; top: 207px;" data-block-id="49c425c6c264c9e257f6b48ef828a92d"><div class="sl-block-style" style="z-index: 13;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 90%; line-height: 1.56;" dir="ui" data-has-line-height="">
+<p style="text-align:left"><span><span>The default flexbox behaviour is to try to fit all the items in its container on one line, but you can change this and make them wrap onto the next line using the flex-wrap property. </span></span></p>
+
+<ul>
+	<li class="fragment" data-fragment-index="0" style="text-align:left"><span style="font-size:0.9em"><strong>nowrap </strong>(default): all items will be on one line</span></li>
+	<li class="fragment" data-fragment-index="1" style="text-align:left"><span style="font-size:0.9em"><strong>wrap</strong>: items will wrap onto multiple lines from top to bottom</span></li>
+	<li class="fragment" data-fragment-index="2" style="text-align:left"><span style="font-size:0.9em"><strong>wrap-reverse</strong>: items will wrap onto multiple lines from bottom to top</span></li>
+</ul>
+</div></div></div>
+</section><section data-background-color="#f0ffe7" data-id="69aba710b0a1d8577adb03d386c172c9"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="5438c733ffdecc8534ad36033cf32931"><div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left"><span>Flex Grow, Shrink, and Basis</span></h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="c4875d9cd4b1f52c796197529be1d1a2"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 794px; left: 80px; top: 207px;" data-block-id="2436a0bb4bbd7d02939e5b4bbcd8ba4e"><div class="sl-block-style" style="z-index: 12;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 90%; line-height: 1.56;" dir="ui" data-has-line-height="">
+<p style="text-align:left"><span><span>Flex-shrink and flex-grow dictate how much the items will shrink/grow to occupy space if the default size of the items is bigger or smaller than the size of the container. Fl</span></span><span style="color:rgb(17, 17, 17); text-align:left">ex-basis </span><span style="color:rgb(51, 51, 51); text-align:start">specifies the initial </span>size<span style="color:rgb(51, 51, 51); text-align:start"> of a flex item.</span></p>
+
+<ul>
+	<li class="fragment" data-fragment-index="0" style="text-align:left">
+<span style="font-size:0.9em"><strong>flex-shrink</strong> &amp;<strong> flex-grow</strong>:</span> <span style="font-size:0.9em">how much</span> <span style="font-size:0.9em">items will shrink or grow to fill the container, according to a specified unitless number <span style="text-align:left">relative to the rest of the flexible items in the container (default value is 1)</span></span>
+</li>
+	<li class="fragment" data-fragment-index="1" style="text-align:left"><span style="font-size:0.9em"><strong>flex-basis</strong>: <span style="color:rgb(17, 17, 17); text-align:left">the default size items should be, and accepts a pixel value, percentage value, or the keyword 'auto' (default value)</span></span></li>
+</ul>
+</div></div></div></section><section data-background-color="#f0ffe7" data-id="a99a88dc1792be965fd791962ddd2deb"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="ffd0c77afa2e714d94972579aa23584d"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left"><span>Flex Grow, Shrink, and Basis</span></h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="eb2f039ce13872f3e58b3eac6c7e6c56"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="e6a0301df15e5c3540439ae368e0cbb4" style="min-width: 4px; min-height: 4px; width: 801px; height: 187px; left: 80px; top: 210px;"><div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="480" data-natural-height="112" data-lazy-loaded="" data-src="fluid-page-layouts-with-flexbox/300def61bf5cf0bc7465fbe47f256332.gif"></div></div>
+<div class="sl-block" data-block-type="image" data-block-id="57ca843ebd69ebad85ab5d74f0fcc4e5" style="min-width: 4px; min-height: 4px; width: 800px; height: 180px; left: 80px; top: 450px;"><div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="0"><img style="" data-natural-width="480" data-natural-height="108" data-lazy-loaded="" data-src="fluid-page-layouts-with-flexbox/f8c0c1e0696167d4cbc87ceeb0345b16.gif"></div></div></section><section data-background-color="#f0ffe7" data-id="6a2f956e3dda2989d6e405ea09c17675"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="514179211562a1a914e90bb22f19403e"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left"><span>Flex (shorthand)</span></h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="f0d3176d30fe6f7ea1a9c45ddb9effa8"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" data-block-id="303dd82ebdc505edc7eb3ea7df306373" style="height: auto; min-width: 30px; min-height: 30px; width: 688px; left: 80px; top: 210px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 90%; line-height: 1.56;" data-has-line-height="">
+<p class="fragment" style="text-align:left" data-fragment-index="0">The <strong>flex</strong> property is the shorthand for <strong>flex-grow</strong>,<br>
+<strong>flex-shrink</strong> and <strong>flex-basis</strong> combined.</p>
+
+<p class="fragment" style="text-align:left" data-fragment-index="1">The second and third property, flex shrink and<br>
+flex-basis, are optional.</p>
+
+<p class="fragment" style="text-align:left" data-fragment-index="2">It is recommended to use this property rather than setting the three values separately, as this sets the other two values intelligently.</p>
+
+<p class="fragment" style="text-align:left" data-fragment-index="3">The default flex value is <strong>1 0 auto</strong>.</p>
+</div></div></section><section data-background-color="#f0ffe7" data-id="6bcb7b48a8a3e5fa3e2ab965e751931c"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="1ee9752b57d327b4a583c6f64f06fa32"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Justify-Content</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="7773c16088389dba4806dc3bd214341e"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 813px; left: 80px; top: 176px;" data-block-id="e0a88091fc883bfc18e1087760723e71"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 90%; line-height: 1.56;" data-has-line-height="">
+<p style="text-align:left"><span><span>Specifies how to spread out the content within a flexbox container. If flex-direction is set to row, this determines how the items are spread out on the x-axis. If flex-direction is column, it determines how the items are spread out on the Y-axis.</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="18e88c69c32ef2ff1c6bb17ffcf2e9ef" style="height: auto; min-width: 30px; min-height: 30px; width: 364px; left: 80px; top: 363px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 75%;">
+<ul>
+	<li class="fragment" data-fragment-index="0" style="color:rgb(17, 17, 17); text-align:left"><span style="font-size:0.9em"><strong>center</strong>: items will all be in the center of the box</span></li>
+	<li class="fragment" data-fragment-index="1" style="color:rgb(17, 17, 17); text-align:left">
+<span style="font-size:0.9em"><strong>flex-start</strong>: items will be aligned to the left or right side (row or row-reverse) or top or bottom </span><span style="font-size:0.9em">of the box (column or column-reverse)</span>
+</li>
+	<li class="fragment" data-fragment-index="2" style="color:rgb(17, 17, 17); text-align:left"><span style="font-size:0.9em"><strong>flex-end</strong>: items will be aligned to the right side (row) or bottom of the box (column)</span></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="4475cad6ee5c63714719fc5ca6842088" style="height: auto; min-width: 30px; min-height: 30px; width: 410px; left: 471px; top: 363px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 75%;">
+<ul>
+	<li style="color:rgb(17, 17, 17); text-align:left" class="fragment" data-fragment-index="3"><span style="font-size:0.9em"><strong>space-around</strong>: items will have equal spacing around and between them</span></li>
+	<li style="color:rgb(17, 17, 17); text-align:left" class="fragment" data-fragment-index="4"><span style="font-size:0.9em"><strong>space-between</strong>: the first and last items will be aligned to the beginning and end of the container, with equal spacing between all items</span></li>
+	<li style="color:rgb(17, 17, 17); text-align:left" class="fragment" data-fragment-index="5"><span style="font-size:0.9em"><strong>space-evenly</strong>: items are distributed so that spacing between any two items and the spacing to the edges of the container are equal</span></li>
+</ul>
+</div></div></section><section data-background-color="#f0ffe7" data-id="b58976da72ea174fb9223b0c011d246f"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="6b564fb492e785d3dd849dbca010c102"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Justify-Content</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="323b41ddcd73211d2e3e9aea86e44f65"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+
+
+<div class="sl-block" data-block-type="image" data-block-id="0632f2b46c085e5dbe981c2cbea49d44" style="min-width: 4px; min-height: 4px; width: 800px; height: 180px; left: 80px; top: 210px;"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="480" data-natural-height="108" style="" data-lazy-loaded="" data-src="fluid-page-layouts-with-flexbox/6d68ffe601a6082dd291415010fabb52.gif"></div></div></section><section data-background-color="#f0ffe7" data-id="9e0da5a763c60f1cf9ff3e2db35ac6f0"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="1880502d505fac2b37a533ee371a790e"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Align-Items</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="683afecb73463559e13479e7065827fa"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 818px; left: 80px; top: 176px;" data-block-id="0b07bd8b18c00cf9daa3a2fb892f10b6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 90%; line-height: 1.56;" data-has-line-height="">
+<p style="text-align:left"><span><span>Specifies how to align the items within a flexbox container. This affects the opposite axis as justify-content. So, if flex-direction is row, this will determine the vertical alignment of its items. If flex-direction is column, this will determine the horizontal alignment.</span></span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="8dcf69524606047d8e58b25596024f8c" style="height: auto; min-width: 30px; min-height: 30px; width: 430px; left: 80px; top: 369px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 75%;">
+<ul>
+	<li class="fragment" data-fragment-index="0"><span style="font-size:0.9em"><strong>flex-start</strong>: items will be aligned so<br>
+	that the top of each item is at the top<br>
+	of the container</span></li>
+	<li class="fragment" data-fragment-index="1"><span style="font-size:0.9em"><strong>flex-end</strong>: items will be aligned so that<br>
+	the bottom of each item is at the bottom of the container</span></li>
+	<li class="fragment" data-fragment-index="2"><span style="font-size:0.9em"><strong>center</strong>: Items will be centered along the y-axis (or x-axis if flex-direction is column)</span></li>
+</ul>
+</div></div>
+<div class="sl-block" data-block-type="text" data-block-id="904dc4053878ca3386d287e1ad59882d" style="height: auto; min-width: 30px; min-height: 30px; width: 353px; left: 527px; top: 369px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 75%;">
+<ul>
+	<li class="fragment" data-fragment-index="3" style="text-align:left"><span style="font-size:0.9em"><strong>stretch</strong>: Items will be stretched to all reach bot the top and bottom of the container (this is useful for when the desired effect is containers with equal height)</span></li>
+	<li class="fragment" data-fragment-index="4" style="text-align:left"><span style="font-size:0.9em"><strong>baseline</strong>: items will be aligned based on the baseline of text content inside each item</span></li>
+</ul>
+</div></div></section><section data-background-color="#f0ffe7" data-id="f16f9191239afbeddecd71e9938f19e5"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="9a2da99c766fa99bce9e71d17f511e4a"><div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Align-Items</h2>
+</div></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="71d3852fedb23d101b8266895f5bba92"><div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg></div></div>
+
+
+<div class="sl-block" data-block-type="image" data-block-id="f9fbf0e4d6f2ded136500068d4a2aac6" style="min-width: 4px; min-height: 4px; width: 800px; height: 280px; left: 80px; top: 210px;"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="480" data-natural-height="168" style="" data-lazy-loaded="" data-src="fluid-page-layouts-with-flexbox/2b758cb941b577e5cfa516bc6f325365.gif"></div></div></section><section data-background-color="#f0ffe7" data-id="abfeff6e4160ff70f77c88cce3fee0cb"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="736788352ec1b35e4c1313d21cc6ff9e">
+    <div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Chrome Inspector Tool</h2>
+</div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="2e54dea7795ddcbe96cac30a4a9d5e9a">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="d77c0262ba7cbbe4f8b7bf875ff2f3bd" style="min-width: 4px; min-height: 4px; width: 350px; height: 350px; left: 80px; top: 210px;"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="500" data-natural-height="500" style="" data-src="fluid-page-layouts-with-flexbox/d235d3acb4126011e96123b384915de6.gif"></div></div></section><section data-background-color="#f0ffe7" data-id="8051e3fa5e99c58ddf84f327d2430c8a"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="60c11027921ad643b72cb978443f8edf">
+    <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Chrome Inspector Tool</h2>
+</div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="da2f6858a9a875cf27c22631cd606c46">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 744px; left: 80px; top: 210px;" data-block-id="da2d12ffd91340e015c1a93982af8246">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 1.56; font-size: 90%;" data-has-line-height="">
+<p style="text-align:left"><span>The Inspector tool in Google Chrome is very useful when working with CSS.</span></p>
+
+<p style="text-align:left">To access the Inspector, right-click on a webpage while using Chrome and select <strong>Inspect Element.</strong></p>
+
+<p style="text-align:left">Click the <strong>Styles</strong> tab to see all style rules being applied to an element from CSS stylesheets.</p>
+</div>
+</div></section><section data-background-color="#f0ffe7" data-id="af08c73fe3733ffacbc2b3b9bbeff22f"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="956937b16afba8abf5016c823b0ecb34">
+    <div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 11; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Project Files</h2>
+</div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="3372704c257421a9ac17cb613ab96d90">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 12; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 744px; left: 80px; top: 210px;" data-block-id="663af8736dd9476d4a14d87fda6d774f">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; line-height: 1.56; font-size: 90%;" data-has-line-height="">
+<p style="text-align:left">For today's examples, all the HTML has been created for you already, with classes we can target using CSS, as well as some base styles for the page.</p>
+
+<p style="text-align:left">We'll mainly just be working with the <strong>index.html</strong> and <strong>flexbox.css</strong> files.</p>
+
+<p style="text-align:left">Open your <strong>index.html</strong> file in Chrome. You can do this by opening Chrome and going to <strong>File &gt; Open File </strong>and <span style="color:rgb(17, 17, 17); text-align:left">navigating to the folder you downloaded earlier</span>.</p>
+</div>
+</div></section><section data-background-color="#f0ffe7" data-id="047be9d2e69afd3f0ea25b2a08c6c1ca"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="de4b46c83b1c1db357e9a2d209e489ca">
+    <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Sublime Text</h2>
+</div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="3c4d985e2d1f962899ab6f89e52edaec">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 808px; left: 80px; top: 210px;" data-block-id="45fc0168c4148eaa82e20f1c2e0ad01d">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 1.56; font-size: 90%;" data-has-line-height="">
+<p style="text-align:left">Open Sublime or your preferred text editor and then go to<br>
+<strong>File &gt; Open</strong> and navigate to the folder you downloaded earlier. Select the <strong>project</strong> folder and click <strong>Open</strong>.</p>
+
+<p style="text-align:left">Double-click the <strong>flexbox.css</strong> file to open it.</p>
+
+<p style="text-align:left">Once you've made changes to your file, you can go to <strong>File &gt; Save</strong> or simply hit <strong>Command </strong>(Mac) or<strong> CTRL </strong>(PC)<strong> + S</strong>.</p>
+
+<p style="text-align:left">Refresh your <strong>index.html</strong> file in Chrome to see the changes.</p>
+</div>
+</div></section><section data-background-color="#f0ffe7" data-id="10646802c1f6eefea5d233eae7070993"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="d0c0992a394fd24e7dc650c44e6b1bf7">
+    <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Example 1: Hero</h2>
+</div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="10f6d2246990196f27efab4796eca40d">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 812px; left: 78px; top: 210px;" data-block-id="a02ff7b51e97ace21cf6f0e7367be46d">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 1.56; font-size: 90%;" data-has-line-height="">
+<p style="text-align:left">A <strong>hero</strong> section is a common layout used in web design. It is found at the top of the homepage underneath the header, and is a full-width, sometimes full-height image (or video) with text overlaid on top and centred. The hero section often contains the company tagline or website's main message/call-to-action.</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 404px; height: 174px; left: 80px; top: 448px;" data-block-id="542314ece92c08991a7a4e37975ff8c9">
+    <div class="sl-block-content notranslate fragment" style="z-index: 14; font-size: 140%;" data-highlight-theme="obsidian" data-fragment-index="0">
+        <pre><code style="padding: 20px;">.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}</code></pre>
+    </div>
+</div></section><section data-background-color="#f0ffe7" data-id="2eb08eac06188377e1f1e66241a57747"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="60364f17ac3e2aabbbf9d1a99f0114ad">
+    <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Example 2: Intro</h2>
+</div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="0b423fca81f3716ac06283ff8386d781">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 783px; left: 80px; top: 210px;" data-block-id="78928931a935b718d553b4a0a64dc438">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 1.56; font-size: 90%;" data-has-line-height="">
+<p style="text-align:left">One of the most basic layouts is an <strong>intro</strong> section or basic text block, centred horizontally on the page. This is similar to what we just did on the hero section, but in this case, the height of the section is determined by the length of text + padding so no vertical centring is required.</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 162px; left: 80px; top: 446px;" data-block-id="75b774cc20b6cc2a92c376d9567a5436">
+    <div class="sl-block-content notranslate fragment" style="z-index: 14; font-size: 140%;" data-highlight-theme="obsidian" data-fragment-index="0">
+        <pre><code style="padding: 20px;">.intro {
+  display: flex;
+  justify-content: center;
+}</code></pre>
+    </div>
+</div></section><section data-background-color="#f0ffe7" data-id="c077d376c082bf51e5f944f16a1981bc"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="e588ae131b4f05f202d1d5c736999c69">
+    <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Example 3: Icons</h2>
+</div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="19c6dd5dbbd288d191687270d016fe30">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 808px; left: 80px; top: 210px;" data-block-id="a9dc984739d0b1d9e0e780bebcb44e72">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 1.56; font-size: 90%;" data-has-line-height="" dir="ui">
+<p style="text-align:left">Another use case for flexbox is when you have <strong>icons, images</strong> or <strong>logos</strong> of different sizes and you simply want to align them. We want our icons to be vertically centred in the section regardless of their size, and spaced out horizontally in a consistent way.</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 480px; height: 175px; left: 80px; top: 410px;" data-block-id="f46a7640d922a9802827ab2cda921370">
+    <div class="sl-block-content notranslate fragment" style="z-index: 14; font-size: 140%;" data-highlight-theme="obsidian" data-fragment-index="0">
+        <pre><code style="padding: 20px;">.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}</code></pre>
+    </div>
+</div></section><section data-background-color="#f0ffe7" data-id="920ad9d94269aa5a2fd86c19101454b6"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="4222d5e4490975f41c9ab461abc6f148">
+    <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Example 4: Split-Screen</h2>
+</div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="f3150a04c2db3997498a02d6b146ad30">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 815px; left: 80px; top: 210px;" data-block-id="3949074a25b8ffcdc0be5c09d94bfc1c">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 1.56; font-size: 90%;" data-has-line-height="">
+<p style="text-align:left">A <strong>split-screen</strong> layout features two sections next to each other that each take up half the screen. It is common to see these with an image on one side and text on the other. Each side, or tile, needs to have equal height in order to achieve this layout.</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 292px; height: 122px; left: 80px; top: 398px;" data-block-id="af839e2b8297eed3e8e571caf95d8109">
+    <div class="sl-block-content notranslate fragment" style="z-index: 13; font-size: 140%;" data-highlight-theme="obsidian" data-fragment-index="0">
+        <pre><code style="padding: 20px;">.tiles {
+    display: flex;
+}</code></pre>
+    </div>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 400px; height: 232px; left: 400px; top: 398px;" data-block-id="82e4dbf080a973a506beb003c3ce28c9">
+    <div class="sl-block-content notranslate fragment" style="z-index: 15; font-size: 140%;" data-highlight-theme="obsidian" data-fragment-index="1">
+        <pre><code style="padding: 20px;">.tile {
+  flex: 1 0 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vw;
+}</code></pre>
+    </div>
+</div></section><section data-background-color="#f0ffe7" data-id="15dce530617db8e0420260fc023e6908"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="f5113d93f684221a9d81cba6173a09a6">
+    <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Example 5: List</h2>
+</div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="bd04204af835f18ec261f70fdb86921e">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 764px; left: 80px; top: 210px;" data-block-id="260042d560ba4c173f6e4f2c51984396">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 1.56; font-size: 90%;" data-has-line-height="">
+<p style="text-align:left">Another common content block is a <strong>list</strong> section - it is similar to the intro section as its height is dictated by the content and we want our text to be horizontally centred, so we can apply the same styles here by adding <strong>list </strong>to the existing <strong>intro</strong> declaration. We also want our list bullet icon and the list item text to be centred vertically.</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 404px; height: 151px; left: 80px; top: 485px;" data-block-id="d5116d9867eaea20843f74a13ee0645c">
+    <div class="sl-block-content notranslate fragment" style="z-index: 13; font-size: 140%;" data-highlight-theme="obsidian" data-fragment-index="0">
+        <pre><code style="padding: 20px;">.intro, .list {
+  display: flex;
+  justify-content: center;
+}</code></pre>
+    </div>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 343px; height: 151px; left: 515px; top: 485px;" data-block-id="c7fffb68b957c16db9ca150d6cb42b95">
+    <div class="sl-block-content notranslate fragment" style="z-index: 15; font-size: 140%;" data-highlight-theme="obsidian" data-fragment-index="1">
+        <pre><code style="padding: 20px;">.list li {
+  display: flex;
+  align-items: center;
+}</code></pre>
+    </div>
+</div></section><section data-background-color="#f0ffe7" data-id="032b3493d956044f5ec6ca6829a7197e"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="017ab98e2bbad1938e5e981c8cfb9a02">
+    <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+<h2 style="text-align:left">Example 6: Image Grid</h2>
+</div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="107ec55ae7fba271d69f06feaafa8cca">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 782px; left: 80px; top: 210px;" data-block-id="bc1f7f519f40a764c35d39cc712f7d50">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 1.56; font-size: 90%;" data-has-line-height="">
+<p style="text-align:left">Our last layout is an <strong>image grid</strong>. We can easily use flexbox to create a fluid grid with images that resize consistently. We'll have to set flex-wrap to <strong>wrap</strong> so the images don't try to fit onto one line. We'll also add some styles to our gallery items to specify their width and height.</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 293px; height: 151px; left: 80px; top: 443px;" data-block-id="7155cc4a1a43971d0f1f2f4351b7a3ae">
+    <div class="sl-block-content notranslate fragment" style="z-index: 13; font-size: 140%;" data-highlight-theme="obsidian" data-fragment-index="0">
+        <pre><code style="padding: 20px;">.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}</code></pre>
+    </div>
+</div>
+<div class="sl-block" data-block-type="code" style="width: 293px; height: 151px; left: 404px; top: 443px;" data-block-id="4464bb68ed6e342b7b944b10cd8b7c38">
+    <div class="sl-block-content notranslate fragment" style="z-index: 15; font-size: 140%;" data-highlight-theme="obsidian" data-fragment-index="0">
+        <pre><code style="padding: 20px;">.gallery-item {
+  flex: 0 0 25%;
+  height: 25vw;
+}</code></pre>
+    </div>
+</div></section><section data-background-color="#f0ffe7" data-id="5fffd3826b458545cc6dc1400deb2a2e"><div class="sl-block" data-block-type="text" style="width: 801px; left: 80px; top: 70px; height: auto;" data-block-id="d00786f3956c785e7da725c8582d973f">
+    <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="z-index: 10; letter-spacing: -0.05em;" data-has-letter-spacing="">
+            <h2 style="text-align:left">Additional Resources</h2>
+        </div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 80px; top: 143px;" data-block-id="bcdea4be6228360cc27f269b2a23234d">
+    <div class="sl-block-content" data-line-x1="34" data-line-y1="210" data-line-x2="274" data-line-y2="210" data-line-color="#6aa84f" data-line-start-type="circle" data-line-end-type="circle" style="z-index: 11; transition-duration: 0.6s; transition-delay: 1s;" data-line-width="3px" data-animation-type="slide-right">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="240" height="1" viewbox="34 210 240 1"><line stroke="rgba(0,0,0,0)" stroke-width="15" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><line stroke="#6aa84f" stroke-width="3" x1="39.5" y1="210.5" x2="270.5" y2="210.5"></line><ellipse rx="4.5" ry="4.5" cx="39" cy="210" fill="#6aa84f"></ellipse><ellipse rx="4.5" ry="4.5" cx="270" cy="210" fill="#6aa84f"></ellipse></svg>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 808px; left: 80px; top: 210px;" data-block-id="17c0e91bdba0cb1ca354c08812d29807">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; line-height: 1.56; font-size: 90%;" data-has-line-height="" dir="ui">
+<p style="text-align:left"><a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank">CSS Flexbox (W3 Schools)</a></p>
+
+<p style="text-align:left"><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">A Complete Guide to Flexbox (CSS Tricks)</a></p>
+
+<p style="text-align:left"><a href="https://yoksel.github.io/flex-cheatsheet/" target="_blank">Flexbox Cheatsheet</a><br>
+<a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy (Game)</a></p>
+
+<p style="text-align:left"><a href="http://www.flexboxdefense.com/" target="_blank">Flexbox Defense (Game)</a></p>
+
+<p style="text-align:left"> </p>
+</div>
+</div></section><section data-background-color="#f0ffe7" data-id="3b9d7012999ea162425642de5ef53081"><div class="sl-block" data-block-type="text" style="width: 674px; left: 143px; top: 188px; height: auto;" data-block-id="e16aeb39bb5d41421bd033ebf815f889"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; font-size: 130%; border-width: 1px;">
+<h1><span style="color:#008000">THANK YOU!</span></h1>
+</div></div>
+
+
+<div class="sl-block" data-block-type="image" style="width: 168px; height: 168px; left: 165px; top: 345px; min-width: 4px; min-height: 4px;" data-block-id="2af4750ad4af2a99007aa769cad3b36e"><div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="0"><img style="" data-natural-width="600" data-natural-height="600" data-lazy-loaded="" data-src="fluid-page-layouts-with-flexbox/d050f384b87bb983aa619d88aa7be51d.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 436px; left: 352px; top: 359px;" data-block-id="54bcc7684574dee89a6c98ab0b88fb04"><div class="sl-block-content fragment" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 80%; color: rgb(0, 0, 0);" data-fragment-index="0">
+<h3 style="text-align:left"><span style="font-size:1.0em">Laura Cooper</span></h3>
+
+<p style="text-align:left"><span style="font-size:0.7em">Senior Web Developer, <a href="https://www.verbinteractive.com/" target="_blank">VERB Interactive</a><br>
+Strategic Volunteer &amp; Instructor, <a href="https://www.canadalearningcode.ca/chapters/victoria/" target="_blank">Canada Learning Code</a></span><br>
+<span style="font-size:16.8px; text-align:left">Board of Directors, <a href="http://www.yyjtechladies.com/" target="_blank">YYJ Tech Ladies</a></span></p>
+</div></div></section></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":1327226,"slug":"fluid-page-layouts-with-flexbox","title":"Fluid Page Layouts with Flexbox","description":"","width":960,"height":700,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/c1df11b1bf86f57d8bfa01bad0ac9bbd/thumb.jpg?1537626062","view_count":0,"user":{"id":928346,"username":"euphorialjc","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/43aff1fe518dc5dcdd5585d9f82c717b?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":true,"pro":false,"lite":true,"team_id":null,"settings":{"id":1864687,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"silver-green","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":null,"should_loop":false,"share_notes":null,"slide_number":null,"slide_count":31,"rtl":false,"version":2,"collaborative":true,"deck_user_editor_limit":1,"data_updated_at":1537626062222,"font_typekit":null,"font_google":null,"notes":{"10646802c1f6eefea5d233eae7070993":"We want the text content to be centred both vertically and horizontally, which we can achieve using three simple lines of flexbox css.\n\nI have wrapped the hero content in a class called .content, which is also used on a couple other sections, and have already added some styles to add a bit of padding and constrains the text content to a nice, legible maximum width of 700 pixels so it doesn't try to stretch to fill the whole screen. This class is also used in a few of the other sections, to keep the text content looking neat. I've also added some code to the hero image which uses object fit to make the image fill the space regardless of size.\n\nTo align our content in the middle, first, we need to tell the .hero to display as a flexbox, so we'll create a new style rule targeting the .hero section and add \"display: flex;\". Next, we need to tell the container to center the hero content both horizontally and vertically. We can do so by adding \"align-items: center;\" and \"justify-content: center;\"","5deec64ca8744fa3b382ab5aa00314d6":"","2eb08eac06188377e1f1e66241a57747":"To align our content in the middle, first, we need to tell the .hero to display as a flexbox, so we'll create a new style rule targeting the .hero section and add \"display: flex;\". Next, we need to tell the container to center the hero content both horizontally and vertically. We can do so by adding \"align-items: center;\" and \"justify-content: center;\"","c077d376c082bf51e5f944f16a1981bc":"Here, we are again using \"display: flex;\" and \"align-items: center;\". We will also use \"justify-content: space-evenly\" to instruct flexbox to space the container's items evenly across the width of the container.","920ad9d94269aa5a2fd86c19101454b6":"First, we need to add the standard \"display: flex;\" on this section, but we will also need to add the \"flex\" shorthand property to the tiles themselves to tell flexbox how big each tile should be, otherwise it will attempt to determine the size based on the content. \n\nWe also want the text content inside the tiles to be centered as well, so even though these tiles are already inside a flex container, they will also become flexbox containers themselves, and we will give them the same styling rules as we did on the hero section, with \"align-items: center\" and \"justify-content: center\" to center the text horizontally and vertically. \n\nI am also giving them a height of 50vw, which will make their width and height equal as vw units stands for viewport width which is calculated based on the width of the browser window.","15dce530617db8e0420260fc023e6908":"Instead of writing an entire new CSS block that has the same style rules as our .intro block, we can just add the .list class to the selectors for those rules. Find your .intro style block and add a comma after the .intro class, and add the list class to it. We will then create a new style declaration for .list li, where will will also set those to \"display: flex\" and \"align-items: center;\". This will align our text and our icons in the center of the y-axis.","032b3493d956044f5ec6ca6829a7197e":"We need to set the gallery to display: flex; and flex-wrap: wrap and then set the gallery-item to flex 0 0 25%; and I have also given the items a height of 25vw (viewport width) to match. You can also change the width and height or flex-basis of the items when on mobile using media-queries. Right now we are using 4 across, however on phones or smaller devices you may prefer 2 or 3 across.","5fffd3826b458545cc6dc1400deb2a2e":"","047be9d2e69afd3f0ea25b2a08c6c1ca":"","af08c73fe3733ffacbc2b3b9bbeff22f":"If you get stuck or behind, feel free to copy and paste the style declarations from the slide into your flexbox.css file instead of writing them out. If you get really stuck, you can also reference the flex-box-final.css file which contains all the final styles.","abfeff6e4160ff70f77c88cce3fee0cb":"","9e0da5a763c60f1cf9ff3e2db35ac6f0":"","6bcb7b48a8a3e5fa3e2ab965e751931c":"","6a2f956e3dda2989d6e405ea09c17675":"","69aba710b0a1d8577adb03d386c172c9":"","2b313bf40fde8ec8e9680e71eafc7098":"","bedf87b66504916d432efa2b0fefa11e":"","d6755fc0e0f1ffd38595bd8b081f444a":"","93313cc9706877ebb48ae5ce9935369e":"","d8b28c5f43e7d2d1011df5d19d6d3c70":"","6b27d67e9004856d2ea5bfac5cb67efe":"","05c64c2c63102b974151480536cc700f":"","11d2698b98391655f8327bb171bc8030":"","575f145037f30e90df22aeef3f3daf28":"","3cc736a0b44a44ccef07bb00ce6afebf":"","bdd1d5bc4af997df26024bd38374e9ee":"","3b9d7012999ea162425642de5ef53081":"","a45bba78b9a1b507918b13f21183980d":"","a99a88dc1792be965fd791962ddd2deb":"","b58976da72ea174fb9223b0c011d246f":"","f16f9191239afbeddecd71e9938f19e5":"","8051e3fa5e99c58ddf84f327d2430c8a":""}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/head.min.js"></script>
+		<script src="lib/reveal.min.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+
+				controls: true,
+				progress: true,
+				history: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+
+				autoSlide: 0 || 0,
+				autoSlideStoppable: true,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'lib/reveal-plugins/zoom/zoom.js', async: true }
+				]
+			});
+		</script>
+
+		
+
+	</body>
+</html>

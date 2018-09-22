@@ -1,0 +1,44 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.intro, .list {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.split-screen {
+  display: flex;
+}
+
+.tile {
+  flex: 0 0 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vw;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  flex: 0 0 25%;
+  height: 25vw;
+}
